@@ -7,7 +7,6 @@ public class SortStringByLength {
             System.out.print(s + " ");
         }
     }
-
     public static class MyComparator implements
             java.util.Comparator<String> {
         @Override

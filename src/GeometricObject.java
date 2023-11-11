@@ -3,7 +3,6 @@ public abstract class GeometricObject {
     private java.lang.String color = "white";
     private boolean filled;
     private java.util.Date dateCreated;
-
     protected GeometricObject() {
         dateCreated = new java.util.Date();
     }
